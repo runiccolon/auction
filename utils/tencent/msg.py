@@ -37,8 +37,8 @@ def send_msg(phone, random_code, template_id="746429"):
         # 你也可以直接在代码中写死密钥对，但是小心不要将代码复制、上传或者分享给他人，
         # 以免泄露密钥对危及你的财产安全。
         # CAM密匙查询: https://console.cloud.tencent.com/cam/capi
-        SECRET_Id = "AKIDFF7jQuAOH8qJVVMzZpo3w4rGXbREoQgF"
-        SECRET_KEY = "gaIl13AB4zmJdjbFfqMiRwrXyB87tr33"
+        SECRET_Id = ""
+        SECRET_KEY = ""
         CHINA = "+86"
         phone = "{}{}".format(CHINA, phone)
         cred = credential.Credential(settings.TENCENT_SECRET_ID, settings.TENCENT_SECRET_KEY)
